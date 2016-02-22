@@ -1,0 +1,34 @@
+{
+  "name": "my-simple-node",
+  "version": "0.0.0",
+  "description": "Modelo para módulo Node.js simples",
+  "homepage": "",
+  "author": {
+    "name": "Gabriel Tartaglia",
+    "email": "gabriel@cappu.com.br",
+    "url": ""
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "node",
+    "module",
+    "boilerplate",
+    "blueprint",
+    "simple"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.1"
+  },
+  "eslintConfig": {
+    "extends": "airbnb/base",
+    "rules": {
+      "no-console": 0
+    }
+  },
+  "repository": "grntartaglia/my-simple-node",
+  "license": "MIT"
+}
